@@ -1,0 +1,122 @@
+body,html {
+  background: #f0f2f5;
+}
+.login-form .ant-form input{
+  background-color: rgba(0,0,0,.1);
+  border-color: rgba(0,0,0,.3);
+  color: #f6f6f7;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+}
+.login-form .ant-form .ant-form-item .ant-form-item-label label{
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: .5px;
+  color: #b9bbbe;
+}
+.login-form .ant-form .ant-form-item .has-error .ant-form-explain {
+  color: #faad14;
+}
+.login-form .ant-form .ant-form-item .ant-form-item-label label.ant-form-item-required:before{
+  display: none;
+}
+.login-form .ant-form input::-webkit-input-placeholder{
+  color: rgba(255,255,255,.3);
+}
+.login-form .ant-form input:-moz-placeholder{
+  color: rgba(0,0,0,.1);
+}
+.login-form .ant-form input:-moz-placeholder{
+  color: rgba(0,0,0,.1);
+}
+.login-form .ant-form input:-ms-input-placeholder{
+  color: rgba(0,0,0,.1);
+}
+
+.ant-table-fixed-header .ant-table-scroll .ant-table-header {
+  overflow: hidden !important;
+  padding-bottom: 20px !important;
+  margin-bottom: -20px !important;
+}
+
+.scheme_meta .ant-card-meta-detail .ant-card-meta-title{
+  font-weight: bold;
+  color: #666;
+}
+.scheme_meta .ant-card-meta-detail .ant-card-meta-description{
+  font-size: 12px;
+  color: #7289da;
+  font-weight: bold;
+}
+.ant-card .ant-card-actions .ant-btn {
+  border: 0;
+  height: 38px;
+}
+.ant-card .ant-card-actions .ant-btn i{
+  font-size: 18px;
+  display: block;
+}
+.ant-card .ant-card-actions .ant-btn span{
+  margin:0;
+  font-size: 12px;
+}
+.verify-row .verify-list .ant-card-cover {
+  min-height: 337px;
+}
+.verify-row .verify-list .ant-list {
+  padding: 10px 24px;
+}
+.verify-row .verify-list .ant-list .ant-list-item-meta {
+  margin-bottom: 10px;
+}
+.verify-row .verify-list .ant-list .ant-list-item-meta-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0;
+}
+.verify-row .verify-list .ant-list .ant-list-item-meta-title .ant-tag:first-child {
+  margin-left: 20px;
+}
+.verify-row .verify-list .ant-list .ant-list-item-meta-description{
+  font-size: 12px;
+}
+.verify-row .ant-col-16 {
+  padding: 12px 24px;
+  background: #e8ecf3;
+}
+.verify-row .ant-col-16,.verify-row .ant-col-4 {
+  height: 400px;
+}
+.verify-row .ant-col-4:first-child {
+  border-right: 1px solid #e5e9ef;
+}
+.verify-row .ant-col-4:first-child .ant-card .ant-card-cover{
+  padding: 0 20px;
+}
+.verify-row .ant-table-thead > tr > th{
+  background: transparent;
+}
+.scheme_remark p{
+  margin: 0;
+}
+
+.index-norecord {
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: #aaa;
+}
+.index-norecord .anticon {
+  font-size: 38px;
+  display: block;
+  padding: 20px;
+  color: #999;
+}
+.record-list .ant-list-item-meta, .record-list .ant-list-item-meta-title {
+  margin: 0;
+}
